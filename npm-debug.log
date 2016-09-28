@@ -1,0 +1,1563 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @angular/common
+20 silly mapToRegistry name @angular/common
+21 silly mapToRegistry scope (from package name) @angular
+22 verbose mapToRegistry no registry URL found in name for scope @angular
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcommon
+26 silly fetchNamedPackageData @angular/compiler
+27 silly mapToRegistry name @angular/compiler
+28 silly mapToRegistry scope (from package name) @angular
+29 verbose mapToRegistry no registry URL found in name for scope @angular
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+33 silly fetchNamedPackageData @angular/core
+34 silly mapToRegistry name @angular/core
+35 silly mapToRegistry scope (from package name) @angular
+36 verbose mapToRegistry no registry URL found in name for scope @angular
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcore
+40 silly fetchNamedPackageData @angular/forms
+41 silly mapToRegistry name @angular/forms
+42 silly mapToRegistry scope (from package name) @angular
+43 verbose mapToRegistry no registry URL found in name for scope @angular
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fforms
+47 silly fetchNamedPackageData @angular/http
+48 silly mapToRegistry name @angular/http
+49 silly mapToRegistry scope (from package name) @angular
+50 verbose mapToRegistry no registry URL found in name for scope @angular
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fhttp
+54 silly fetchNamedPackageData @angular/platform-browser
+55 silly mapToRegistry name @angular/platform-browser
+56 silly mapToRegistry scope (from package name) @angular
+57 verbose mapToRegistry no registry URL found in name for scope @angular
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser
+61 silly fetchNamedPackageData @angular/platform-browser-dynamic
+62 silly mapToRegistry name @angular/platform-browser-dynamic
+63 silly mapToRegistry scope (from package name) @angular
+64 verbose mapToRegistry no registry URL found in name for scope @angular
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+68 silly fetchNamedPackageData @angular/router
+69 silly mapToRegistry name @angular/router
+70 silly mapToRegistry scope (from package name) @angular
+71 verbose mapToRegistry no registry URL found in name for scope @angular
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/@angular%2frouter
+75 silly fetchNamedPackageData @angular/upgrade
+76 silly mapToRegistry name @angular/upgrade
+77 silly mapToRegistry scope (from package name) @angular
+78 verbose mapToRegistry no registry URL found in name for scope @angular
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fupgrade
+82 silly fetchNamedPackageData angular-in-memory-web-api
+83 silly mapToRegistry name angular-in-memory-web-api
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry uri https://registry.npmjs.org/angular-in-memory-web-api
+87 silly fetchNamedPackageData bootstrap
+88 silly mapToRegistry name bootstrap
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+92 silly fetchNamedPackageData core-js
+93 silly mapToRegistry name core-js
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/core-js
+97 silly fetchNamedPackageData reflect-metadata
+98 silly mapToRegistry name reflect-metadata
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+102 silly fetchNamedPackageData rxjs
+103 silly mapToRegistry name rxjs
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+107 silly fetchNamedPackageData systemjs
+108 silly mapToRegistry name systemjs
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/systemjs
+112 silly fetchNamedPackageData zone.js
+113 silly mapToRegistry name zone.js
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+117 verbose request uri https://registry.npmjs.org/angular-in-memory-web-api
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 15:51:36
+120 verbose request id 193419a4d5990247
+121 http request GET https://registry.npmjs.org/angular-in-memory-web-api
+122 verbose request uri https://registry.npmjs.org/@angular%2fcompiler
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 15:51:36
+125 verbose etag "7SNBRHEXD0EH21E7G01GBSPZ0"
+126 http request GET https://registry.npmjs.org/@angular%2fcompiler
+127 verbose request uri https://registry.npmjs.org/@angular%2fcore
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 15:51:36
+130 verbose etag "4J1XWC967WZ1FEYDRY04JS2DN"
+131 http request GET https://registry.npmjs.org/@angular%2fcore
+132 verbose request uri https://registry.npmjs.org/@angular%2fforms
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 15:51:36
+135 verbose etag "EAEQ3H227F67DKL54RON412OW"
+136 http request GET https://registry.npmjs.org/@angular%2fforms
+137 verbose request uri https://registry.npmjs.org/@angular%2fcommon
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 15:51:36
+140 verbose etag "5T3TIRLH7GIKTLAUE8ASZODQP"
+141 http request GET https://registry.npmjs.org/@angular%2fcommon
+142 verbose request uri https://registry.npmjs.org/@angular%2fhttp
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 15:51:36
+145 verbose etag "1UJ41T624CZCY1EZ6DN0KDMIC"
+146 http request GET https://registry.npmjs.org/@angular%2fhttp
+147 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser
+148 verbose request no auth needed
+149 info attempt registry request try #1 at 15:51:36
+150 verbose etag "6KULKVAP2JLLHXUR9G1MKEWBH"
+151 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+152 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+153 verbose request no auth needed
+154 info attempt registry request try #1 at 15:51:36
+155 verbose etag "93TYM79GEA2OF88P7I3IUHXY3"
+156 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+157 verbose request uri https://registry.npmjs.org/@angular%2frouter
+158 verbose request no auth needed
+159 info attempt registry request try #1 at 15:51:36
+160 verbose etag "E37EYJC1EI89JHFLMFG79P1B1"
+161 http request GET https://registry.npmjs.org/@angular%2frouter
+162 verbose request uri https://registry.npmjs.org/bootstrap
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 15:51:36
+165 verbose etag "9SK94IDTK652GOIS5ELI4HY2I"
+166 http request GET https://registry.npmjs.org/bootstrap
+167 verbose request uri https://registry.npmjs.org/rxjs
+168 verbose request no auth needed
+169 info attempt registry request try #1 at 15:51:36
+170 verbose etag "7N7H88FTGZQBOTMU9ATVPKGUB"
+171 http request GET https://registry.npmjs.org/rxjs
+172 verbose request uri https://registry.npmjs.org/@angular%2fupgrade
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 15:51:36
+175 verbose etag "5KY7MFCDWDO1O59AZFJDDPLVJ"
+176 http request GET https://registry.npmjs.org/@angular%2fupgrade
+177 verbose request uri https://registry.npmjs.org/reflect-metadata
+178 verbose request no auth needed
+179 info attempt registry request try #1 at 15:51:36
+180 verbose etag "LVS2LL1H0843A39IRMDHNKDP"
+181 http request GET https://registry.npmjs.org/reflect-metadata
+182 verbose request uri https://registry.npmjs.org/core-js
+183 verbose request no auth needed
+184 info attempt registry request try #1 at 15:51:36
+185 verbose etag "B556J679UQ17J1J6BPIP48IIW"
+186 http request GET https://registry.npmjs.org/core-js
+187 verbose request uri https://registry.npmjs.org/systemjs
+188 verbose request no auth needed
+189 info attempt registry request try #1 at 15:51:36
+190 verbose etag "8BR6U0N3TADQ8IBBVTTKFCRBS"
+191 http request GET https://registry.npmjs.org/systemjs
+192 verbose request uri https://registry.npmjs.org/zone.js
+193 verbose request no auth needed
+194 info attempt registry request try #1 at 15:51:36
+195 verbose etag "6LOPWJ0GKB2EHZ7DWRBT0A9V2"
+196 http request GET https://registry.npmjs.org/zone.js
+197 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+198 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+199 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+200 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+201 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+202 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+203 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+204 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+205 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+206 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+207 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+208 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+209 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+210 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+211 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+212 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+213 info attempt registry request try #2 at 15:51:46
+214 http request GET https://registry.npmjs.org/angular-in-memory-web-api
+215 info attempt registry request try #2 at 15:51:46
+216 verbose etag "4J1XWC967WZ1FEYDRY04JS2DN"
+217 http request GET https://registry.npmjs.org/@angular%2fcore
+218 info attempt registry request try #2 at 15:51:46
+219 verbose etag "6KULKVAP2JLLHXUR9G1MKEWBH"
+220 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+221 info attempt registry request try #2 at 15:51:46
+222 verbose etag "1UJ41T624CZCY1EZ6DN0KDMIC"
+223 http request GET https://registry.npmjs.org/@angular%2fhttp
+224 info attempt registry request try #2 at 15:51:46
+225 verbose etag "7SNBRHEXD0EH21E7G01GBSPZ0"
+226 http request GET https://registry.npmjs.org/@angular%2fcompiler
+227 info attempt registry request try #2 at 15:51:46
+228 verbose etag "5T3TIRLH7GIKTLAUE8ASZODQP"
+229 http request GET https://registry.npmjs.org/@angular%2fcommon
+230 info attempt registry request try #2 at 15:51:46
+231 verbose etag "93TYM79GEA2OF88P7I3IUHXY3"
+232 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+233 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+234 info attempt registry request try #2 at 15:51:46
+235 verbose etag "E37EYJC1EI89JHFLMFG79P1B1"
+236 http request GET https://registry.npmjs.org/@angular%2frouter
+237 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+238 info attempt registry request try #2 at 15:51:46
+239 verbose etag "5KY7MFCDWDO1O59AZFJDDPLVJ"
+240 http request GET https://registry.npmjs.org/@angular%2fupgrade
+241 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+242 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+243 info attempt registry request try #2 at 15:51:46
+244 verbose etag "EAEQ3H227F67DKL54RON412OW"
+245 http request GET https://registry.npmjs.org/@angular%2fforms
+246 info attempt registry request try #2 at 15:51:46
+247 verbose etag "7N7H88FTGZQBOTMU9ATVPKGUB"
+248 http request GET https://registry.npmjs.org/rxjs
+249 info attempt registry request try #2 at 15:51:46
+250 verbose etag "LVS2LL1H0843A39IRMDHNKDP"
+251 http request GET https://registry.npmjs.org/reflect-metadata
+252 info attempt registry request try #2 at 15:51:46
+253 verbose etag "6LOPWJ0GKB2EHZ7DWRBT0A9V2"
+254 http request GET https://registry.npmjs.org/zone.js
+255 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+256 info attempt registry request try #2 at 15:51:47
+257 verbose etag "9SK94IDTK652GOIS5ELI4HY2I"
+258 http request GET https://registry.npmjs.org/bootstrap
+259 info attempt registry request try #2 at 15:51:47
+260 verbose etag "B556J679UQ17J1J6BPIP48IIW"
+261 http request GET https://registry.npmjs.org/core-js
+262 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+263 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+264 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+265 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+266 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+267 info attempt registry request try #2 at 15:51:47
+268 verbose etag "8BR6U0N3TADQ8IBBVTTKFCRBS"
+269 http request GET https://registry.npmjs.org/systemjs
+270 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+271 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+272 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+273 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+274 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+275 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+276 info attempt registry request try #3 at 15:52:46
+277 http request GET https://registry.npmjs.org/angular-in-memory-web-api
+278 info attempt registry request try #3 at 15:52:46
+279 verbose etag "4J1XWC967WZ1FEYDRY04JS2DN"
+280 http request GET https://registry.npmjs.org/@angular%2fcore
+281 info attempt registry request try #3 at 15:52:46
+282 verbose etag "5T3TIRLH7GIKTLAUE8ASZODQP"
+283 http request GET https://registry.npmjs.org/@angular%2fcommon
+284 info attempt registry request try #3 at 15:52:46
+285 verbose etag "6KULKVAP2JLLHXUR9G1MKEWBH"
+286 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+287 info attempt registry request try #3 at 15:52:46
+288 verbose etag "5KY7MFCDWDO1O59AZFJDDPLVJ"
+289 http request GET https://registry.npmjs.org/@angular%2fupgrade
+290 silly fetchPackageMetaData Error: self signed certificate in certificate chain
+290 silly fetchPackageMetaData     at Error (native)
+290 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1057:38)
+290 silly fetchPackageMetaData     at emitNone (events.js:80:13)
+290 silly fetchPackageMetaData     at TLSSocket.emit (events.js:179:7)
+290 silly fetchPackageMetaData     at TLSSocket._init.ssl.onclienthello.ssl.oncertcb.TLSSocket._finishInit (_tls_wrap.js:596:8)
+290 silly fetchPackageMetaData     at TLSWrap.ssl.onclienthello.ssl.oncertcb.ssl.onnewsession.ssl.onhandshakedone (_tls_wrap.js:428:38)
+290 silly fetchPackageMetaData  error for angular-in-memory-web-api@~0.1.1 { [Error: self signed certificate in certificate chain] code: 'SELF_SIGNED_CERT_IN_CHAIN' }
+291 info attempt registry request try #3 at 15:52:47
+292 verbose etag "7N7H88FTGZQBOTMU9ATVPKGUB"
+293 http request GET https://registry.npmjs.org/rxjs
+294 silly get cb [ 304, undefined ]
+295 verbose etag https://registry.npmjs.org/@angular%2fcore from cache
+296 verbose get saving @angular/core to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcore\.cache.json
+297 info attempt registry request try #3 at 15:52:47
+298 verbose etag "7SNBRHEXD0EH21E7G01GBSPZ0"
+299 http request GET https://registry.npmjs.org/@angular%2fcompiler
+300 info attempt registry request try #3 at 15:52:47
+301 verbose etag "LVS2LL1H0843A39IRMDHNKDP"
+302 http request GET https://registry.npmjs.org/reflect-metadata
+303 silly get cb [ 304, undefined ]
+304 verbose etag https://registry.npmjs.org/@angular%2fcommon from cache
+305 verbose get saving @angular/common to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcommon\.cache.json
+306 silly get cb [ 304, undefined ]
+307 verbose etag https://registry.npmjs.org/@angular%2fplatform-browser from cache
+308 verbose get saving @angular/platform-browser to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fplatform-browser\.cache.json
+309 info attempt registry request try #3 at 15:52:47
+310 verbose etag "1UJ41T624CZCY1EZ6DN0KDMIC"
+311 http request GET https://registry.npmjs.org/@angular%2fhttp
+312 silly get cb [ 304, undefined ]
+313 verbose etag https://registry.npmjs.org/@angular%2fupgrade from cache
+314 verbose get saving @angular/upgrade to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fupgrade\.cache.json
+315 silly resolveWithNewModule @angular/core@2.0.1 checking installable status
+316 silly cache add args [ '@angular/core@~2.0.1', null ]
+317 verbose cache add spec @angular/core@~2.0.1
+318 silly cache add parsed spec Result {
+318 silly cache add   raw: '@angular/core@~2.0.1',
+318 silly cache add   scope: '@angular',
+318 silly cache add   name: '@angular/core',
+318 silly cache add   rawSpec: '~2.0.1',
+318 silly cache add   spec: '>=2.0.1 <2.1.0',
+318 silly cache add   type: 'range' }
+319 silly addNamed @angular/core@>=2.0.1 <2.1.0
+320 verbose addNamed ">=2.0.1 <2.1.0" is a valid semver range for @angular/core
+321 silly addNameRange { name: '@angular/core',
+321 silly addNameRange   range: '>=2.0.1 <2.1.0',
+321 silly addNameRange   hasData: false }
+322 silly mapToRegistry name @angular/core
+323 silly mapToRegistry scope (from package name) @angular
+324 verbose mapToRegistry no registry URL found in name for scope @angular
+325 silly mapToRegistry using default registry
+326 silly mapToRegistry registry https://registry.npmjs.org/
+327 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcore
+328 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fcore not in flight; fetching
+329 info attempt registry request try #3 at 15:52:47
+330 verbose etag "9SK94IDTK652GOIS5ELI4HY2I"
+331 http request GET https://registry.npmjs.org/bootstrap
+332 info attempt registry request try #3 at 15:52:47
+333 verbose etag "E37EYJC1EI89JHFLMFG79P1B1"
+334 http request GET https://registry.npmjs.org/@angular%2frouter
+335 silly resolveWithNewModule @angular/common@2.0.1 checking installable status
+336 silly cache add args [ '@angular/common@~2.0.1', null ]
+337 verbose cache add spec @angular/common@~2.0.1
+338 silly cache add parsed spec Result {
+338 silly cache add   raw: '@angular/common@~2.0.1',
+338 silly cache add   scope: '@angular',
+338 silly cache add   name: '@angular/common',
+338 silly cache add   rawSpec: '~2.0.1',
+338 silly cache add   spec: '>=2.0.1 <2.1.0',
+338 silly cache add   type: 'range' }
+339 silly addNamed @angular/common@>=2.0.1 <2.1.0
+340 verbose addNamed ">=2.0.1 <2.1.0" is a valid semver range for @angular/common
+341 silly addNameRange { name: '@angular/common',
+341 silly addNameRange   range: '>=2.0.1 <2.1.0',
+341 silly addNameRange   hasData: false }
+342 silly mapToRegistry name @angular/common
+343 silly mapToRegistry scope (from package name) @angular
+344 verbose mapToRegistry no registry URL found in name for scope @angular
+345 silly mapToRegistry using default registry
+346 silly mapToRegistry registry https://registry.npmjs.org/
+347 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcommon
+348 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fcommon not in flight; fetching
+349 silly resolveWithNewModule @angular/platform-browser@2.0.1 checking installable status
+350 silly cache add args [ '@angular/platform-browser@~2.0.1', null ]
+351 verbose cache add spec @angular/platform-browser@~2.0.1
+352 silly cache add parsed spec Result {
+352 silly cache add   raw: '@angular/platform-browser@~2.0.1',
+352 silly cache add   scope: '@angular',
+352 silly cache add   name: '@angular/platform-browser',
+352 silly cache add   rawSpec: '~2.0.1',
+352 silly cache add   spec: '>=2.0.1 <2.1.0',
+352 silly cache add   type: 'range' }
+353 silly addNamed @angular/platform-browser@>=2.0.1 <2.1.0
+354 verbose addNamed ">=2.0.1 <2.1.0" is a valid semver range for @angular/platform-browser
+355 silly addNameRange { name: '@angular/platform-browser',
+355 silly addNameRange   range: '>=2.0.1 <2.1.0',
+355 silly addNameRange   hasData: false }
+356 silly mapToRegistry name @angular/platform-browser
+357 silly mapToRegistry scope (from package name) @angular
+358 verbose mapToRegistry no registry URL found in name for scope @angular
+359 silly mapToRegistry using default registry
+360 silly mapToRegistry registry https://registry.npmjs.org/
+361 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser
+362 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fplatform-browser not in flight; fetching
+363 info attempt registry request try #3 at 15:52:47
+364 verbose etag "B556J679UQ17J1J6BPIP48IIW"
+365 http request GET https://registry.npmjs.org/core-js
+366 silly resolveWithNewModule @angular/upgrade@2.0.1 checking installable status
+367 silly cache add args [ '@angular/upgrade@~2.0.1', null ]
+368 verbose cache add spec @angular/upgrade@~2.0.1
+369 silly cache add parsed spec Result {
+369 silly cache add   raw: '@angular/upgrade@~2.0.1',
+369 silly cache add   scope: '@angular',
+369 silly cache add   name: '@angular/upgrade',
+369 silly cache add   rawSpec: '~2.0.1',
+369 silly cache add   spec: '>=2.0.1 <2.1.0',
+369 silly cache add   type: 'range' }
+370 silly addNamed @angular/upgrade@>=2.0.1 <2.1.0
+371 verbose addNamed ">=2.0.1 <2.1.0" is a valid semver range for @angular/upgrade
+372 silly addNameRange { name: '@angular/upgrade',
+372 silly addNameRange   range: '>=2.0.1 <2.1.0',
+372 silly addNameRange   hasData: false }
+373 silly mapToRegistry name @angular/upgrade
+374 silly mapToRegistry scope (from package name) @angular
+375 verbose mapToRegistry no registry URL found in name for scope @angular
+376 silly mapToRegistry using default registry
+377 silly mapToRegistry registry https://registry.npmjs.org/
+378 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fupgrade
+379 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fupgrade not in flight; fetching
+380 verbose get https://registry.npmjs.org/@angular%2fcore not expired, no request
+381 silly addNameRange number 2 { name: '@angular/core', range: '>=2.0.1 <2.1.0', hasData: true }
+382 silly addNameRange versions [ '@angular/core',
+382 silly addNameRange   [ '0.0.0-0',
+382 silly addNameRange     '0.0.0-1',
+382 silly addNameRange     '0.0.0-2',
+382 silly addNameRange     '0.0.0-3',
+382 silly addNameRange     '0.0.0-4',
+382 silly addNameRange     '0.0.0-5',
+382 silly addNameRange     '0.0.0-6',
+382 silly addNameRange     '0.0.0-7',
+382 silly addNameRange     '2.0.0-rc.0',
+382 silly addNameRange     '2.0.0-rc.1',
+382 silly addNameRange     '2.0.0-rc.2',
+382 silly addNameRange     '2.0.0-rc.3',
+382 silly addNameRange     '2.0.0-rc.4',
+382 silly addNameRange     '2.0.0-rc.5',
+382 silly addNameRange     '2.0.0-rc.6',
+382 silly addNameRange     '2.0.0-rc.7',
+382 silly addNameRange     '2.0.0',
+382 silly addNameRange     '2.0.1',
+382 silly addNameRange     '2.1.0-beta.0' ] ]
+383 silly addNamed @angular/core@2.0.1
+384 verbose addNamed "2.0.1" is a plain semver version for @angular/core
+385 verbose get https://registry.npmjs.org/@angular%2fcommon not expired, no request
+386 silly addNameRange number 2 { name: '@angular/common',
+386 silly addNameRange   range: '>=2.0.1 <2.1.0',
+386 silly addNameRange   hasData: true }
+387 silly addNameRange versions [ '@angular/common',
+387 silly addNameRange   [ '0.0.0-0',
+387 silly addNameRange     '0.0.0-1',
+387 silly addNameRange     '0.0.0-2',
+387 silly addNameRange     '0.0.0-3',
+387 silly addNameRange     '0.0.0-4',
+387 silly addNameRange     '0.0.0-5',
+387 silly addNameRange     '0.0.0-6',
+387 silly addNameRange     '0.0.0-7',
+387 silly addNameRange     '2.0.0-rc.0',
+387 silly addNameRange     '2.0.0-rc.1',
+387 silly addNameRange     '2.0.0-rc.2',
+387 silly addNameRange     '2.0.0-rc.3',
+387 silly addNameRange     '2.0.0-rc.4',
+387 silly addNameRange     '2.0.0-rc.5',
+387 silly addNameRange     '2.0.0-rc.6',
+387 silly addNameRange     '2.0.0-rc.7',
+387 silly addNameRange     '2.0.0',
+387 silly addNameRange     '2.0.1',
+387 silly addNameRange     '2.1.0-beta.0' ] ]
+388 silly addNamed @angular/common@2.0.1
+389 verbose addNamed "2.0.1" is a plain semver version for @angular/common
+390 verbose get https://registry.npmjs.org/@angular%2fplatform-browser not expired, no request
+391 silly addNameRange number 2 { name: '@angular/platform-browser',
+391 silly addNameRange   range: '>=2.0.1 <2.1.0',
+391 silly addNameRange   hasData: true }
+392 silly addNameRange versions [ '@angular/platform-browser',
+392 silly addNameRange   [ '0.0.0-0',
+392 silly addNameRange     '0.0.0-1',
+392 silly addNameRange     '0.0.0-2',
+392 silly addNameRange     '0.0.0-3',
+392 silly addNameRange     '0.0.0-4',
+392 silly addNameRange     '0.0.0-5',
+392 silly addNameRange     '0.0.0-6',
+392 silly addNameRange     '0.0.0-7',
+392 silly addNameRange     '2.0.0-rc.0',
+392 silly addNameRange     '2.0.0-rc.1',
+392 silly addNameRange     '2.0.0-rc.2',
+392 silly addNameRange     '2.0.0-rc.3',
+392 silly addNameRange     '2.0.0-rc.4',
+392 silly addNameRange     '2.0.0-rc.5',
+392 silly addNameRange     '2.0.0-rc.6',
+392 silly addNameRange     '2.0.0-rc.7',
+392 silly addNameRange     '2.0.0',
+392 silly addNameRange     '2.0.1',
+392 silly addNameRange     '2.1.0-beta.0' ] ]
+393 silly addNamed @angular/platform-browser@2.0.1
+394 verbose addNamed "2.0.1" is a plain semver version for @angular/platform-browser
+395 silly mapToRegistry name @angular/core
+396 silly mapToRegistry scope (from package name) @angular
+397 verbose mapToRegistry no registry URL found in name for scope @angular
+398 silly mapToRegistry using default registry
+399 silly mapToRegistry registry https://registry.npmjs.org/
+400 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcore
+401 verbose addRemoteTarball https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz not in flight; adding
+402 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz',
+402 verbose addRemoteTarball   'c0cd8287bbaf367b350c189ac010aee443f4a3c8' ]
+403 silly mapToRegistry name @angular/common
+404 silly mapToRegistry scope (from package name) @angular
+405 verbose mapToRegistry no registry URL found in name for scope @angular
+406 silly mapToRegistry using default registry
+407 silly mapToRegistry registry https://registry.npmjs.org/
+408 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcommon
+409 verbose addRemoteTarball https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz not in flight; adding
+410 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz',
+410 verbose addRemoteTarball   '5fefffecec1699d6671b31d7c1bbfb44b5363634' ]
+411 silly mapToRegistry name @angular/platform-browser
+412 silly mapToRegistry scope (from package name) @angular
+413 verbose mapToRegistry no registry URL found in name for scope @angular
+414 silly mapToRegistry using default registry
+415 silly mapToRegistry registry https://registry.npmjs.org/
+416 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser
+417 verbose addRemoteTarball https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz not in flight; adding
+418 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz',
+418 verbose addRemoteTarball   'cb7a9a2c5a980b231cc2bb107d3bf8b857aac260' ]
+419 info attempt registry request try #3 at 15:52:47
+420 verbose etag "EAEQ3H227F67DKL54RON412OW"
+421 http request GET https://registry.npmjs.org/@angular%2fforms
+422 verbose get https://registry.npmjs.org/@angular%2fupgrade not expired, no request
+423 silly addNameRange number 2 { name: '@angular/upgrade',
+423 silly addNameRange   range: '>=2.0.1 <2.1.0',
+423 silly addNameRange   hasData: true }
+424 silly addNameRange versions [ '@angular/upgrade',
+424 silly addNameRange   [ '0.0.0-0',
+424 silly addNameRange     '0.0.0-2',
+424 silly addNameRange     '0.0.0-3',
+424 silly addNameRange     '0.0.0-4',
+424 silly addNameRange     '0.0.0-5',
+424 silly addNameRange     '0.0.0-6',
+424 silly addNameRange     '0.0.0-7',
+424 silly addNameRange     '2.0.0-rc.0',
+424 silly addNameRange     '2.0.0-rc.1',
+424 silly addNameRange     '2.0.0-rc.2',
+424 silly addNameRange     '2.0.0-rc.3',
+424 silly addNameRange     '2.0.0-rc.4',
+424 silly addNameRange     '2.0.0-rc.5',
+424 silly addNameRange     '2.0.0-rc.6',
+424 silly addNameRange     '2.0.0-rc.7',
+424 silly addNameRange     '2.0.0',
+424 silly addNameRange     '2.0.1',
+424 silly addNameRange     '2.1.0-beta.0' ] ]
+425 silly addNamed @angular/upgrade@2.0.1
+426 verbose addNamed "2.0.1" is a plain semver version for @angular/upgrade
+427 silly get cb [ 304, undefined ]
+428 verbose etag https://registry.npmjs.org/rxjs from cache
+429 verbose get saving rxjs to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\rxjs\.cache.json
+430 silly mapToRegistry name @angular/upgrade
+431 silly mapToRegistry scope (from package name) @angular
+432 verbose mapToRegistry no registry URL found in name for scope @angular
+433 silly mapToRegistry using default registry
+434 silly mapToRegistry registry https://registry.npmjs.org/
+435 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fupgrade
+436 verbose addRemoteTarball https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz not in flight; adding
+437 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz',
+437 verbose addRemoteTarball   '7fe04f4b9b5334189855b154f7622da4193c085c' ]
+438 info attempt registry request try #3 at 15:52:47
+439 verbose etag "8BR6U0N3TADQ8IBBVTTKFCRBS"
+440 http request GET https://registry.npmjs.org/systemjs
+441 info retry fetch attempt 1 at 15:52:47
+442 info attempt registry request try #1 at 15:52:47
+443 http fetch GET https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz
+444 info attempt registry request try #3 at 15:52:47
+445 verbose etag "6LOPWJ0GKB2EHZ7DWRBT0A9V2"
+446 http request GET https://registry.npmjs.org/zone.js
+447 silly get cb [ 304, undefined ]
+448 verbose etag https://registry.npmjs.org/@angular%2fcompiler from cache
+449 verbose get saving @angular/compiler to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcompiler\.cache.json
+450 info retry fetch attempt 1 at 15:52:47
+451 info attempt registry request try #1 at 15:52:47
+452 http fetch GET https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz
+453 info retry fetch attempt 1 at 15:52:47
+454 info attempt registry request try #1 at 15:52:47
+455 http fetch GET https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz
+456 info retry fetch attempt 1 at 15:52:47
+457 info attempt registry request try #1 at 15:52:47
+458 http fetch GET https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz
+459 silly get cb [ 304, undefined ]
+460 verbose etag https://registry.npmjs.org/@angular%2fhttp from cache
+461 verbose get saving @angular/http to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fhttp\.cache.json
+462 silly resolveWithNewModule rxjs@5.0.0-beta.12 checking installable status
+463 silly cache add args [ 'rxjs@5.0.0-beta.12', null ]
+464 verbose cache add spec rxjs@5.0.0-beta.12
+465 silly cache add parsed spec Result {
+465 silly cache add   raw: 'rxjs@5.0.0-beta.12',
+465 silly cache add   scope: null,
+465 silly cache add   name: 'rxjs',
+465 silly cache add   rawSpec: '5.0.0-beta.12',
+465 silly cache add   spec: '5.0.0-beta.12',
+465 silly cache add   type: 'version' }
+466 silly addNamed rxjs@5.0.0-beta.12
+467 verbose addNamed "5.0.0-beta.12" is a plain semver version for rxjs
+468 silly mapToRegistry name rxjs
+469 silly mapToRegistry using default registry
+470 silly mapToRegistry registry https://registry.npmjs.org/
+471 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+472 verbose addNameVersion registry:https://registry.npmjs.org/rxjs not in flight; fetching
+473 verbose get https://registry.npmjs.org/rxjs not expired, no request
+474 silly get cb [ 304, undefined ]
+475 verbose etag https://registry.npmjs.org/bootstrap from cache
+476 verbose get saving bootstrap to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\bootstrap\.cache.json
+477 silly resolveWithNewModule @angular/compiler@2.0.1 checking installable status
+478 silly cache add args [ '@angular/compiler@~2.0.1', null ]
+479 verbose cache add spec @angular/compiler@~2.0.1
+480 silly cache add parsed spec Result {
+480 silly cache add   raw: '@angular/compiler@~2.0.1',
+480 silly cache add   scope: '@angular',
+480 silly cache add   name: '@angular/compiler',
+480 silly cache add   rawSpec: '~2.0.1',
+480 silly cache add   spec: '>=2.0.1 <2.1.0',
+480 silly cache add   type: 'range' }
+481 silly addNamed @angular/compiler@>=2.0.1 <2.1.0
+482 verbose addNamed ">=2.0.1 <2.1.0" is a valid semver range for @angular/compiler
+483 silly addNameRange { name: '@angular/compiler',
+483 silly addNameRange   range: '>=2.0.1 <2.1.0',
+483 silly addNameRange   hasData: false }
+484 silly mapToRegistry name @angular/compiler
+485 silly mapToRegistry scope (from package name) @angular
+486 verbose mapToRegistry no registry URL found in name for scope @angular
+487 silly mapToRegistry using default registry
+488 silly mapToRegistry registry https://registry.npmjs.org/
+489 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+490 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fcompiler not in flight; fetching
+491 silly cache afterAdd rxjs@5.0.0-beta.12
+492 verbose afterAdd C:\Users\f0223328\AppData\Roaming\npm-cache\rxjs\5.0.0-beta.12\package\package.json not in flight; writing
+493 silly resolveWithNewModule @angular/http@2.0.1 checking installable status
+494 silly cache add args [ '@angular/http@~2.0.1', null ]
+495 verbose cache add spec @angular/http@~2.0.1
+496 silly cache add parsed spec Result {
+496 silly cache add   raw: '@angular/http@~2.0.1',
+496 silly cache add   scope: '@angular',
+496 silly cache add   name: '@angular/http',
+496 silly cache add   rawSpec: '~2.0.1',
+496 silly cache add   spec: '>=2.0.1 <2.1.0',
+496 silly cache add   type: 'range' }
+497 silly addNamed @angular/http@>=2.0.1 <2.1.0
+498 verbose addNamed ">=2.0.1 <2.1.0" is a valid semver range for @angular/http
+499 silly addNameRange { name: '@angular/http',
+499 silly addNameRange   range: '>=2.0.1 <2.1.0',
+499 silly addNameRange   hasData: false }
+500 silly mapToRegistry name @angular/http
+501 silly mapToRegistry scope (from package name) @angular
+502 verbose mapToRegistry no registry URL found in name for scope @angular
+503 silly mapToRegistry using default registry
+504 silly mapToRegistry registry https://registry.npmjs.org/
+505 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fhttp
+506 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fhttp not in flight; fetching
+507 silly get cb [ 304, undefined ]
+508 verbose etag https://registry.npmjs.org/@angular%2frouter from cache
+509 verbose get saving @angular/router to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252frouter\.cache.json
+510 verbose get https://registry.npmjs.org/@angular%2fcompiler not expired, no request
+511 silly addNameRange number 2 { name: '@angular/compiler',
+511 silly addNameRange   range: '>=2.0.1 <2.1.0',
+511 silly addNameRange   hasData: true }
+512 silly addNameRange versions [ '@angular/compiler',
+512 silly addNameRange   [ '0.0.0-0',
+512 silly addNameRange     '0.0.0-1',
+512 silly addNameRange     '0.0.0-2',
+512 silly addNameRange     '0.0.0-3',
+512 silly addNameRange     '0.0.0-4',
+512 silly addNameRange     '0.0.0-5',
+512 silly addNameRange     '0.0.0-6',
+512 silly addNameRange     '0.0.0-7',
+512 silly addNameRange     '2.0.0-rc.0',
+512 silly addNameRange     '2.0.0-rc.1',
+512 silly addNameRange     '2.0.0-rc.2',
+512 silly addNameRange     '2.0.0-rc.3',
+512 silly addNameRange     '2.0.0-rc.4',
+512 silly addNameRange     '2.0.0-rc.5',
+512 silly addNameRange     '2.0.0-rc.6',
+512 silly addNameRange     '2.0.0-rc.7',
+512 silly addNameRange     '2.0.0',
+512 silly addNameRange     '2.0.1',
+512 silly addNameRange     '2.1.0-beta.0' ] ]
+513 silly addNamed @angular/compiler@2.0.1
+514 verbose addNamed "2.0.1" is a plain semver version for @angular/compiler
+515 silly mapToRegistry name @angular/compiler
+516 silly mapToRegistry scope (from package name) @angular
+517 verbose mapToRegistry no registry URL found in name for scope @angular
+518 silly mapToRegistry using default registry
+519 silly mapToRegistry registry https://registry.npmjs.org/
+520 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+521 verbose addRemoteTarball https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz not in flight; adding
+522 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz',
+522 verbose addRemoteTarball   '02dac19ad95d0f94e8ebf0810af5e81acc128a4b' ]
+523 verbose get https://registry.npmjs.org/@angular%2fhttp not expired, no request
+524 silly addNameRange number 2 { name: '@angular/http', range: '>=2.0.1 <2.1.0', hasData: true }
+525 silly addNameRange versions [ '@angular/http',
+525 silly addNameRange   [ '0.0.0-0',
+525 silly addNameRange     '0.0.0-1',
+525 silly addNameRange     '0.0.0-2',
+525 silly addNameRange     '0.0.0-3',
+525 silly addNameRange     '0.0.0-4',
+525 silly addNameRange     '0.0.0-5',
+525 silly addNameRange     '0.0.0-6',
+525 silly addNameRange     '0.0.0-7',
+525 silly addNameRange     '2.0.0-rc.0',
+525 silly addNameRange     '2.0.0-rc.1',
+525 silly addNameRange     '2.0.0-rc.2',
+525 silly addNameRange     '2.0.0-rc.3',
+525 silly addNameRange     '2.0.0-rc.4',
+525 silly addNameRange     '2.0.0-rc.5',
+525 silly addNameRange     '2.0.0-rc.6',
+525 silly addNameRange     '2.0.0-rc.7',
+525 silly addNameRange     '2.0.0',
+525 silly addNameRange     '2.0.1',
+525 silly addNameRange     '2.1.0-beta.0' ] ]
+526 silly addNamed @angular/http@2.0.1
+527 verbose addNamed "2.0.1" is a plain semver version for @angular/http
+528 verbose afterAdd C:\Users\f0223328\AppData\Roaming\npm-cache\rxjs\5.0.0-beta.12\package\package.json written
+529 silly mapToRegistry name @angular/http
+530 silly mapToRegistry scope (from package name) @angular
+531 verbose mapToRegistry no registry URL found in name for scope @angular
+532 silly mapToRegistry using default registry
+533 silly mapToRegistry registry https://registry.npmjs.org/
+534 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fhttp
+535 verbose addRemoteTarball https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz not in flight; adding
+536 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz',
+536 verbose addRemoteTarball   'a3bd759daca372d1ef769184cb4684f61a5211bc' ]
+537 silly get cb [ 304, undefined ]
+538 verbose etag https://registry.npmjs.org/@angular%2fforms from cache
+539 verbose get saving @angular/forms to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fforms\.cache.json
+540 info retry fetch attempt 1 at 15:52:47
+541 info attempt registry request try #1 at 15:52:47
+542 http fetch GET https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz
+543 silly resolveWithNewModule bootstrap@3.3.7 checking installable status
+544 silly cache add args [ 'bootstrap@^3.3.7', null ]
+545 verbose cache add spec bootstrap@^3.3.7
+546 silly cache add parsed spec Result {
+546 silly cache add   raw: 'bootstrap@^3.3.7',
+546 silly cache add   scope: null,
+546 silly cache add   name: 'bootstrap',
+546 silly cache add   rawSpec: '^3.3.7',
+546 silly cache add   spec: '>=3.3.7 <4.0.0',
+546 silly cache add   type: 'range' }
+547 silly addNamed bootstrap@>=3.3.7 <4.0.0
+548 verbose addNamed ">=3.3.7 <4.0.0" is a valid semver range for bootstrap
+549 silly addNameRange { name: 'bootstrap', range: '>=3.3.7 <4.0.0', hasData: false }
+550 silly mapToRegistry name bootstrap
+551 silly mapToRegistry using default registry
+552 silly mapToRegistry registry https://registry.npmjs.org/
+553 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+554 verbose addNameRange registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+555 info retry fetch attempt 1 at 15:52:47
+556 info attempt registry request try #1 at 15:52:47
+557 http fetch GET https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz
+558 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+559 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+560 silly resolveWithNewModule @angular/router@3.0.1 checking installable status
+561 silly cache add args [ '@angular/router@~3.0.1', null ]
+562 verbose cache add spec @angular/router@~3.0.1
+563 silly cache add parsed spec Result {
+563 silly cache add   raw: '@angular/router@~3.0.1',
+563 silly cache add   scope: '@angular',
+563 silly cache add   name: '@angular/router',
+563 silly cache add   rawSpec: '~3.0.1',
+563 silly cache add   spec: '>=3.0.1 <3.1.0',
+563 silly cache add   type: 'range' }
+564 silly addNamed @angular/router@>=3.0.1 <3.1.0
+565 verbose addNamed ">=3.0.1 <3.1.0" is a valid semver range for @angular/router
+566 silly addNameRange { name: '@angular/router',
+566 silly addNameRange   range: '>=3.0.1 <3.1.0',
+566 silly addNameRange   hasData: false }
+567 silly mapToRegistry name @angular/router
+568 silly mapToRegistry scope (from package name) @angular
+569 verbose mapToRegistry no registry URL found in name for scope @angular
+570 silly mapToRegistry using default registry
+571 silly mapToRegistry registry https://registry.npmjs.org/
+572 silly mapToRegistry uri https://registry.npmjs.org/@angular%2frouter
+573 verbose addNameRange registry:https://registry.npmjs.org/@angular%2frouter not in flight; fetching
+574 info attempt registry request try #3 at 15:52:47
+575 verbose etag "93TYM79GEA2OF88P7I3IUHXY3"
+576 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+577 silly get cb [ 304, undefined ]
+578 verbose etag https://registry.npmjs.org/reflect-metadata from cache
+579 verbose get saving reflect-metadata to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\reflect-metadata\.cache.json
+580 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+581 verbose get https://registry.npmjs.org/bootstrap not expired, no request
+582 silly addNameRange number 2 { name: 'bootstrap', range: '>=3.3.7 <4.0.0', hasData: true }
+583 silly addNameRange versions [ 'bootstrap',
+583 silly addNameRange   [ '0.0.1',
+583 silly addNameRange     '0.0.2',
+583 silly addNameRange     '3.1.1',
+583 silly addNameRange     '3.2.0',
+583 silly addNameRange     '3.3.0',
+583 silly addNameRange     '3.3.1',
+583 silly addNameRange     '3.3.2',
+583 silly addNameRange     '3.3.4',
+583 silly addNameRange     '3.3.5',
+583 silly addNameRange     '3.3.6',
+583 silly addNameRange     '4.0.0-alpha.2',
+583 silly addNameRange     '3.3.7',
+583 silly addNameRange     '4.0.0-alpha.3',
+583 silly addNameRange     '4.0.0-alpha.4' ] ]
+584 silly addNamed bootstrap@3.3.7
+585 verbose addNamed "3.3.7" is a plain semver version for bootstrap
+586 silly get cb [ 304, undefined ]
+587 verbose etag https://registry.npmjs.org/zone.js from cache
+588 verbose get saving zone.js to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\zone.js\.cache.json
+589 silly get cb [ 304, undefined ]
+590 verbose etag https://registry.npmjs.org/core-js from cache
+591 verbose get saving core-js to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\core-js\.cache.json
+592 silly resolveWithNewModule @angular/forms@2.0.1 checking installable status
+593 silly cache add args [ '@angular/forms@~2.0.1', null ]
+594 verbose cache add spec @angular/forms@~2.0.1
+595 silly cache add parsed spec Result {
+595 silly cache add   raw: '@angular/forms@~2.0.1',
+595 silly cache add   scope: '@angular',
+595 silly cache add   name: '@angular/forms',
+595 silly cache add   rawSpec: '~2.0.1',
+595 silly cache add   spec: '>=2.0.1 <2.1.0',
+595 silly cache add   type: 'range' }
+596 silly addNamed @angular/forms@>=2.0.1 <2.1.0
+597 verbose addNamed ">=2.0.1 <2.1.0" is a valid semver range for @angular/forms
+598 silly addNameRange { name: '@angular/forms',
+598 silly addNameRange   range: '>=2.0.1 <2.1.0',
+598 silly addNameRange   hasData: false }
+599 silly mapToRegistry name @angular/forms
+600 silly mapToRegistry scope (from package name) @angular
+601 verbose mapToRegistry no registry URL found in name for scope @angular
+602 silly mapToRegistry using default registry
+603 silly mapToRegistry registry https://registry.npmjs.org/
+604 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fforms
+605 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fforms not in flight; fetching
+606 silly get cb [ 304, undefined ]
+607 verbose etag https://registry.npmjs.org/systemjs from cache
+608 verbose get saving systemjs to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\systemjs\.cache.json
+609 verbose get https://registry.npmjs.org/@angular%2frouter not expired, no request
+610 silly addNameRange number 2 { name: '@angular/router',
+610 silly addNameRange   range: '>=3.0.1 <3.1.0',
+610 silly addNameRange   hasData: true }
+611 silly addNameRange versions [ '@angular/router',
+611 silly addNameRange   [ '0.0.1',
+611 silly addNameRange     '0.1.0',
+611 silly addNameRange     '0.2.0',
+611 silly addNameRange     '0.0.0-0',
+611 silly addNameRange     '0.0.0-1',
+611 silly addNameRange     '0.0.0-2',
+611 silly addNameRange     '0.0.0-3',
+611 silly addNameRange     '0.0.0-4',
+611 silly addNameRange     '0.0.0-5',
+611 silly addNameRange     '0.0.0-6',
+611 silly addNameRange     '0.0.0-7',
+611 silly addNameRange     '2.0.0-rc.0',
+611 silly addNameRange     '2.0.0-rc.1',
+611 silly addNameRange     '3.0.0-alpha.0',
+611 silly addNameRange     '3.0.0-alpha.1',
+611 silly addNameRange     '3.0.0-alpha.2',
+611 silly addNameRange     '3.0.0-alpha.3',
+611 silly addNameRange     '3.0.0-alpha.4',
+611 silly addNameRange     '2.0.0-rc.2',
+611 silly addNameRange     '3.0.0-alpha.5',
+611 silly addNameRange     '3.0.0-alpha.6',
+611 silly addNameRange     '3.0.0-alpha.7',
+611 silly addNameRange     '3.0.0-alpha.8',
+611 silly addNameRange     '3.0.0-beta.1',
+611 silly addNameRange     '3.0.0-beta.2',
+611 silly addNameRange     '3.0.0-rc.1',
+611 silly addNameRange     '3.0.0-rc.2',
+611 silly addNameRange     '3.0.0-rc.3',
+611 silly addNameRange     '3.0.0',
+611 silly addNameRange     '3.0.1',
+611 silly addNameRange     '3.1.0-beta.0' ] ]
+612 silly addNamed @angular/router@3.0.1
+613 verbose addNamed "3.0.1" is a plain semver version for @angular/router
+614 silly mapToRegistry name @angular/router
+615 silly mapToRegistry scope (from package name) @angular
+616 verbose mapToRegistry no registry URL found in name for scope @angular
+617 silly mapToRegistry using default registry
+618 silly mapToRegistry registry https://registry.npmjs.org/
+619 silly mapToRegistry uri https://registry.npmjs.org/@angular%2frouter
+620 verbose addRemoteTarball https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz not in flight; adding
+621 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz',
+621 verbose addRemoteTarball   '33186547e425444e6bbba1751f5515103e231014' ]
+622 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+623 silly cache afterAdd bootstrap@3.3.7
+624 verbose afterAdd C:\Users\f0223328\AppData\Roaming\npm-cache\bootstrap\3.3.7\package\package.json not in flight; writing
+625 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+626 silly resolveWithNewModule reflect-metadata@0.1.8 checking installable status
+627 silly cache add args [ 'reflect-metadata@^0.1.8', null ]
+628 verbose cache add spec reflect-metadata@^0.1.8
+629 silly cache add parsed spec Result {
+629 silly cache add   raw: 'reflect-metadata@^0.1.8',
+629 silly cache add   scope: null,
+629 silly cache add   name: 'reflect-metadata',
+629 silly cache add   rawSpec: '^0.1.8',
+629 silly cache add   spec: '>=0.1.8 <0.2.0',
+629 silly cache add   type: 'range' }
+630 silly addNamed reflect-metadata@>=0.1.8 <0.2.0
+631 verbose addNamed ">=0.1.8 <0.2.0" is a valid semver range for reflect-metadata
+632 silly addNameRange { name: 'reflect-metadata',
+632 silly addNameRange   range: '>=0.1.8 <0.2.0',
+632 silly addNameRange   hasData: false }
+633 silly mapToRegistry name reflect-metadata
+634 silly mapToRegistry using default registry
+635 silly mapToRegistry registry https://registry.npmjs.org/
+636 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+637 verbose addNameRange registry:https://registry.npmjs.org/reflect-metadata not in flight; fetching
+638 verbose get https://registry.npmjs.org/@angular%2fforms not expired, no request
+639 silly addNameRange number 2 { name: '@angular/forms',
+639 silly addNameRange   range: '>=2.0.1 <2.1.0',
+639 silly addNameRange   hasData: true }
+640 silly addNameRange versions [ '@angular/forms',
+640 silly addNameRange   [ '0.1.0',
+640 silly addNameRange     '0.1.1',
+640 silly addNameRange     '0.2.0',
+640 silly addNameRange     '0.3.0',
+640 silly addNameRange     '2.0.0-rc.6',
+640 silly addNameRange     '2.0.0-rc.7',
+640 silly addNameRange     '2.0.0',
+640 silly addNameRange     '2.0.1',
+640 silly addNameRange     '2.1.0-beta.0' ] ]
+641 silly addNamed @angular/forms@2.0.1
+642 verbose addNamed "2.0.1" is a plain semver version for @angular/forms
+643 info retry fetch attempt 1 at 15:52:48
+644 info attempt registry request try #1 at 15:52:48
+645 http fetch GET https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz
+646 silly mapToRegistry name @angular/forms
+647 silly mapToRegistry scope (from package name) @angular
+648 verbose mapToRegistry no registry URL found in name for scope @angular
+649 silly mapToRegistry using default registry
+650 silly mapToRegistry registry https://registry.npmjs.org/
+651 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fforms
+652 verbose addRemoteTarball https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz not in flight; adding
+653 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz',
+653 verbose addRemoteTarball   'c8535524517d7fd0ae528a4802d19738ce81e2c2' ]
+654 silly get cb [ 304, undefined ]
+655 verbose etag https://registry.npmjs.org/@angular%2fplatform-browser-dynamic from cache
+656 verbose get saving @angular/platform-browser-dynamic to C:\Users\f0223328\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fplatform-browser-dynamic\.cache.json
+657 silly resolveWithNewModule zone.js@0.6.25 checking installable status
+658 silly cache add args [ 'zone.js@^0.6.25', null ]
+659 verbose cache add spec zone.js@^0.6.25
+660 silly cache add parsed spec Result {
+660 silly cache add   raw: 'zone.js@^0.6.25',
+660 silly cache add   scope: null,
+660 silly cache add   name: 'zone.js',
+660 silly cache add   rawSpec: '^0.6.25',
+660 silly cache add   spec: '>=0.6.25 <0.7.0',
+660 silly cache add   type: 'range' }
+661 silly addNamed zone.js@>=0.6.25 <0.7.0
+662 verbose addNamed ">=0.6.25 <0.7.0" is a valid semver range for zone.js
+663 silly addNameRange { name: 'zone.js', range: '>=0.6.25 <0.7.0', hasData: false }
+664 silly mapToRegistry name zone.js
+665 silly mapToRegistry using default registry
+666 silly mapToRegistry registry https://registry.npmjs.org/
+667 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+668 verbose addNameRange registry:https://registry.npmjs.org/zone.js not in flight; fetching
+669 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+670 silly resolveWithNewModule core-js@2.4.1 checking installable status
+671 silly cache add args [ 'core-js@^2.4.1', null ]
+672 verbose cache add spec core-js@^2.4.1
+673 silly cache add parsed spec Result {
+673 silly cache add   raw: 'core-js@^2.4.1',
+673 silly cache add   scope: null,
+673 silly cache add   name: 'core-js',
+673 silly cache add   rawSpec: '^2.4.1',
+673 silly cache add   spec: '>=2.4.1 <3.0.0',
+673 silly cache add   type: 'range' }
+674 silly addNamed core-js@>=2.4.1 <3.0.0
+675 verbose addNamed ">=2.4.1 <3.0.0" is a valid semver range for core-js
+676 silly addNameRange { name: 'core-js', range: '>=2.4.1 <3.0.0', hasData: false }
+677 silly mapToRegistry name core-js
+678 silly mapToRegistry using default registry
+679 silly mapToRegistry registry https://registry.npmjs.org/
+680 silly mapToRegistry uri https://registry.npmjs.org/core-js
+681 verbose addNameRange registry:https://registry.npmjs.org/core-js not in flight; fetching
+682 silly resolveWithNewModule systemjs@0.19.39 checking installable status
+683 silly cache add args [ 'systemjs@0.19.39', null ]
+684 verbose cache add spec systemjs@0.19.39
+685 silly cache add parsed spec Result {
+685 silly cache add   raw: 'systemjs@0.19.39',
+685 silly cache add   scope: null,
+685 silly cache add   name: 'systemjs',
+685 silly cache add   rawSpec: '0.19.39',
+685 silly cache add   spec: '0.19.39',
+685 silly cache add   type: 'version' }
+686 silly addNamed systemjs@0.19.39
+687 verbose addNamed "0.19.39" is a plain semver version for systemjs
+688 silly mapToRegistry name systemjs
+689 silly mapToRegistry using default registry
+690 silly mapToRegistry registry https://registry.npmjs.org/
+691 silly mapToRegistry uri https://registry.npmjs.org/systemjs
+692 verbose addNameVersion registry:https://registry.npmjs.org/systemjs not in flight; fetching
+693 verbose afterAdd C:\Users\f0223328\AppData\Roaming\npm-cache\bootstrap\3.3.7\package\package.json written
+694 info retry fetch attempt 1 at 15:52:48
+695 info attempt registry request try #1 at 15:52:48
+696 http fetch GET https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz
+697 verbose get https://registry.npmjs.org/reflect-metadata not expired, no request
+698 silly addNameRange number 2 { name: 'reflect-metadata',
+698 silly addNameRange   range: '>=0.1.8 <0.2.0',
+698 silly addNameRange   hasData: true }
+699 silly addNameRange versions [ 'reflect-metadata',
+699 silly addNameRange   [ '0.0.2',
+699 silly addNameRange     '0.0.3',
+699 silly addNameRange     '0.1.0',
+699 silly addNameRange     '0.1.1',
+699 silly addNameRange     '0.1.2',
+699 silly addNameRange     '0.1.3',
+699 silly addNameRange     '0.1.4',
+699 silly addNameRange     '0.1.5',
+699 silly addNameRange     '0.1.6',
+699 silly addNameRange     '0.1.7',
+699 silly addNameRange     '0.1.8' ] ]
+700 silly addNamed reflect-metadata@0.1.8
+701 verbose addNamed "0.1.8" is a plain semver version for reflect-metadata
+702 verbose get https://registry.npmjs.org/zone.js not expired, no request
+703 silly addNameRange number 2 { name: 'zone.js', range: '>=0.6.25 <0.7.0', hasData: true }
+704 silly addNameRange versions [ 'zone.js',
+704 silly addNameRange   [ '0.1.0',
+704 silly addNameRange     '0.1.1',
+704 silly addNameRange     '0.2.0',
+704 silly addNameRange     '0.2.1',
+704 silly addNameRange     '0.2.3',
+704 silly addNameRange     '0.2.2',
+704 silly addNameRange     '0.2.4',
+704 silly addNameRange     '0.3.0',
+704 silly addNameRange     '0.4.0',
+704 silly addNameRange     '0.4.1',
+704 silly addNameRange     '0.4.2',
+704 silly addNameRange     '0.4.3',
+704 silly addNameRange     '0.4.4',
+704 silly addNameRange     '0.5.0',
+704 silly addNameRange     '0.5.1',
+704 silly addNameRange     '0.5.2',
+704 silly addNameRange     '0.5.3',
+704 silly addNameRange     '0.5.4',
+704 silly addNameRange     '0.5.5',
+704 silly addNameRange     '0.5.6',
+704 silly addNameRange     '0.5.7',
+704 silly addNameRange     '0.5.8',
+704 silly addNameRange     '0.5.9',
+704 silly addNameRange     '0.5.10',
+704 silly addNameRange     '0.5.11',
+704 silly addNameRange     '0.5.12',
+704 silly addNameRange     '0.5.13',
+704 silly addNameRange     '0.5.14',
+704 silly addNameRange     '0.5.15',
+704 silly addNameRange     '0.6.0',
+704 silly addNameRange     '0.6.1',
+704 silly addNameRange     '0.6.2',
+704 silly addNameRange     '0.6.3',
+704 silly addNameRange     '0.6.4',
+704 silly addNameRange     '0.6.5',
+704 silly addNameRange     '0.6.6',
+704 silly addNameRange     '0.6.8',
+704 silly addNameRange     '0.6.9',
+704 silly addNameRange     '0.6.10',
+704 silly addNameRange     '0.6.11',
+704 silly addNameRange     '0.6.12',
+704 silly addNameRange     '0.6.13',
+704 silly addNameRange     '0.6.14',
+704 silly addNameRange     '0.6.15',
+704 silly addNameRange     '0.6.16',
+704 silly addNameRange     '0.6.17',
+704 silly addNameRange     '0.6.18',
+704 silly addNameRange     '0.6.19',
+704 silly addNameRange     '0.6.20',
+704 silly addNameRange     '0.6.21',
+704 silly addNameRange     '0.6.22',
+704 silly addNameRange     '0.6.23',
+704 silly addNameRange     '0.6.24',
+704 silly addNameRange     '0.6.25' ] ]
+705 silly addNamed zone.js@0.6.25
+706 verbose addNamed "0.6.25" is a plain semver version for zone.js
+707 verbose get https://registry.npmjs.org/core-js not expired, no request
+708 silly addNameRange number 2 { name: 'core-js', range: '>=2.4.1 <3.0.0', hasData: true }
+709 silly addNameRange versions [ 'core-js',
+709 silly addNameRange   [ '0.0.3',
+709 silly addNameRange     '0.0.4',
+709 silly addNameRange     '0.0.5',
+709 silly addNameRange     '0.0.7',
+709 silly addNameRange     '0.0.8',
+709 silly addNameRange     '0.0.9',
+709 silly addNameRange     '0.1.1',
+709 silly addNameRange     '0.1.2',
+709 silly addNameRange     '0.1.3',
+709 silly addNameRange     '0.1.4',
+709 silly addNameRange     '0.1.5',
+709 silly addNameRange     '0.2.0',
+709 silly addNameRange     '0.2.1',
+709 silly addNameRange     '0.2.2',
+709 silly addNameRange     '0.2.3',
+709 silly addNameRange     '0.2.4',
+709 silly addNameRange     '0.2.5',
+709 silly addNameRange     '0.3.0',
+709 silly addNameRange     '0.3.1',
+709 silly addNameRange     '0.3.2',
+709 silly addNameRange     '0.3.3',
+709 silly addNameRange     '0.4.0',
+709 silly addNameRange     '0.4.1',
+709 silly addNameRange     '0.4.2',
+709 silly addNameRange     '0.4.3',
+709 silly addNameRange     '0.4.4',
+709 silly addNameRange     '0.4.5',
+709 silly addNameRange     '0.4.6',
+709 silly addNameRange     '0.4.7',
+709 silly addNameRange     '0.4.8',
+709 silly addNameRange     '0.4.9',
+709 silly addNameRange     '0.4.10',
+709 silly addNameRange     '0.5.0',
+709 silly addNameRange     '0.5.1',
+709 silly addNameRange     '0.5.2',
+709 silly addNameRange     '0.5.3',
+709 silly addNameRange     '0.5.4',
+709 silly addNameRange     '0.6.0',
+709 silly addNameRange     '0.6.1',
+709 silly addNameRange     '0.7.0',
+709 silly addNameRange     '0.7.1',
+709 silly addNameRange     '0.7.2',
+709 silly addNameRange     '0.8.0',
+709 silly addNameRange     '0.8.1',
+709 silly addNameRange     '0.8.2',
+709 silly addNameRange     '0.8.3',
+709 silly addNameRange     '0.8.4',
+709 silly addNameRange     '0.9.0',
+709 silly addNameRange     '0.9.1',
+709 silly addNameRange     '0.9.2',
+709 silly addNameRange     '0.9.3',
+709 silly addNameRange     '0.9.4',
+709 silly addNameRange     '0.9.5',
+709 silly addNameRange     '0.9.6',
+709 silly addNameRange     '0.9.7',
+709 silly addNameRange     '0.9.8',
+709 silly addNameRange     '0.9.9',
+709 silly addNameRange     '0.9.10',
+709 silly addNameRange     '0.9.11',
+709 silly addNameRange     '0.9.12',
+709 silly addNameRange     '0.9.13',
+709 silly addNameRange     '0.9.14',
+709 silly addNameRange     '0.9.15',
+709 silly addNameRange     '0.9.16',
+709 silly addNameRange     '0.9.17',
+709 silly addNameRange     '0.9.18',
+709 silly addNameRange     '1.0.0',
+709 silly addNameRange     '1.0.1',
+709 silly addNameRange     '1.1.0',
+709 silly addNameRange     '1.1.1',
+709 silly addNameRange     '1.1.2',
+709 silly addNameRange     '1.1.3',
+709 silly addNameRange     '1.1.4',
+709 silly addNameRange     '1.2.0',
+709 silly addNameRange     '1.2.1',
+709 silly addNameRange     '1.2.2',
+709 silly addNameRange     '1.2.3',
+709 silly addNameRange     '1.2.4',
+709 silly addNameRange     '1.2.5',
+709 silly addNameRange     '1.2.6',
+709 silly addNameRange     '2.0.0-alpha',
+709 silly addNameRange     '2.0.0-beta',
+709 silly addNameRange     '2.0.0-beta.2',
+709 silly addNameRange     '2.0.0',
+709 silly addNameRange     '2.0.1',
+709 silly addNameRange     '2.0.2',
+709 silly addNameRange     '2.0.3',
+709 silly addNameRange     '2.1.0',
+709 silly addNameRange     '2.1.1',
+709 silly addNameRange     '2.1.2',
+709 silly addNameRange     '2.1.3',
+709 silly addNameRange     '2.1.4',
+709 silly addNameRange     '2.1.5',
+709 silly addNameRange     '2.2.0',
+709 silly addNameRange     '2.2.1',
+709 silly addNameRange     '2.2.2',
+709 silly addNameRange     '2.3.0',
+709 silly addNameRange     '2.4.0',
+709 silly addNameRange     '1.2.7',
+709 silly addNameRange     '2.4.1' ] ]
+710 silly addNamed core-js@2.4.1
+711 verbose addNamed "2.4.1" is a plain semver version for core-js
+712 verbose get https://registry.npmjs.org/systemjs not expired, no request
+713 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+714 silly mapToRegistry name systemjs
+715 silly mapToRegistry using default registry
+716 silly mapToRegistry registry https://registry.npmjs.org/
+717 silly mapToRegistry uri https://registry.npmjs.org/systemjs
+718 verbose addRemoteTarball https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz not in flight; adding
+719 verbose addRemoteTarball [ 'https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz',
+719 verbose addRemoteTarball   'e513e6f91a25a37b8b607c51c7989ee0d67b9356' ]
+720 silly cache afterAdd reflect-metadata@0.1.8
+721 verbose afterAdd C:\Users\f0223328\AppData\Roaming\npm-cache\reflect-metadata\0.1.8\package\package.json not in flight; writing
+722 silly resolveWithNewModule @angular/platform-browser-dynamic@2.0.1 checking installable status
+723 silly cache add args [ '@angular/platform-browser-dynamic@~2.0.1', null ]
+724 verbose cache add spec @angular/platform-browser-dynamic@~2.0.1
+725 silly cache add parsed spec Result {
+725 silly cache add   raw: '@angular/platform-browser-dynamic@~2.0.1',
+725 silly cache add   scope: '@angular',
+725 silly cache add   name: '@angular/platform-browser-dynamic',
+725 silly cache add   rawSpec: '~2.0.1',
+725 silly cache add   spec: '>=2.0.1 <2.1.0',
+725 silly cache add   type: 'range' }
+726 silly addNamed @angular/platform-browser-dynamic@>=2.0.1 <2.1.0
+727 verbose addNamed ">=2.0.1 <2.1.0" is a valid semver range for @angular/platform-browser-dynamic
+728 silly addNameRange { name: '@angular/platform-browser-dynamic',
+728 silly addNameRange   range: '>=2.0.1 <2.1.0',
+728 silly addNameRange   hasData: false }
+729 silly mapToRegistry name @angular/platform-browser-dynamic
+730 silly mapToRegistry scope (from package name) @angular
+731 verbose mapToRegistry no registry URL found in name for scope @angular
+732 silly mapToRegistry using default registry
+733 silly mapToRegistry registry https://registry.npmjs.org/
+734 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+735 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fplatform-browser-dynamic not in flight; fetching
+736 silly cache afterAdd zone.js@0.6.25
+737 verbose afterAdd C:\Users\f0223328\AppData\Roaming\npm-cache\zone.js\0.6.25\package\package.json not in flight; writing
+738 silly cache afterAdd core-js@2.4.1
+739 verbose afterAdd C:\Users\f0223328\AppData\Roaming\npm-cache\core-js\2.4.1\package\package.json not in flight; writing
+740 info retry fetch attempt 1 at 15:52:48
+741 info attempt registry request try #1 at 15:52:48
+742 http fetch GET https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz
+743 verbose get https://registry.npmjs.org/@angular%2fplatform-browser-dynamic not expired, no request
+744 silly addNameRange number 2 { name: '@angular/platform-browser-dynamic',
+744 silly addNameRange   range: '>=2.0.1 <2.1.0',
+744 silly addNameRange   hasData: true }
+745 silly addNameRange versions [ '@angular/platform-browser-dynamic',
+745 silly addNameRange   [ '0.0.0-0',
+745 silly addNameRange     '0.0.0-1',
+745 silly addNameRange     '0.0.0-2',
+745 silly addNameRange     '0.0.0-3',
+745 silly addNameRange     '0.0.0-4',
+745 silly addNameRange     '0.0.0-5',
+745 silly addNameRange     '0.0.0-6',
+745 silly addNameRange     '0.0.0-7',
+745 silly addNameRange     '2.0.0-rc.0',
+745 silly addNameRange     '2.0.0-rc.1',
+745 silly addNameRange     '2.0.0-rc.2',
+745 silly addNameRange     '2.0.0-rc.3',
+745 silly addNameRange     '2.0.0-rc.4',
+745 silly addNameRange     '2.0.0-rc.5',
+745 silly addNameRange     '2.0.0-rc.6',
+745 silly addNameRange     '2.0.0-rc.7',
+745 silly addNameRange     '2.0.0',
+745 silly addNameRange     '2.0.1',
+745 silly addNameRange     '2.1.0-beta.0' ] ]
+746 silly addNamed @angular/platform-browser-dynamic@2.0.1
+747 verbose addNamed "2.0.1" is a plain semver version for @angular/platform-browser-dynamic
+748 verbose afterAdd C:\Users\f0223328\AppData\Roaming\npm-cache\reflect-metadata\0.1.8\package\package.json written
+749 silly mapToRegistry name @angular/platform-browser-dynamic
+750 silly mapToRegistry scope (from package name) @angular
+751 verbose mapToRegistry no registry URL found in name for scope @angular
+752 silly mapToRegistry using default registry
+753 silly mapToRegistry registry https://registry.npmjs.org/
+754 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+755 verbose addRemoteTarball https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz not in flight; adding
+756 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz',
+756 verbose addRemoteTarball   '7b54c61b8f5b2362ef6d77da37f4ea1ff4f496a3' ]
+757 info retry fetch attempt 1 at 15:52:48
+758 info attempt registry request try #1 at 15:52:48
+759 http fetch GET https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz
+760 verbose afterAdd C:\Users\f0223328\AppData\Roaming\npm-cache\zone.js\0.6.25\package\package.json written
+761 verbose afterAdd C:\Users\f0223328\AppData\Roaming\npm-cache\core-js\2.4.1\package\package.json written
+762 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+763 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+764 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+765 info attempt registry request try #2 at 15:52:57
+766 http fetch GET https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz
+767 info attempt registry request try #2 at 15:52:57
+768 http fetch GET https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz
+769 info attempt registry request try #2 at 15:52:57
+770 http fetch GET https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz
+771 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+772 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+773 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+774 info attempt registry request try #2 at 15:52:57
+775 http fetch GET https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz
+776 info attempt registry request try #2 at 15:52:58
+777 http fetch GET https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz
+778 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+779 info attempt registry request try #2 at 15:52:58
+780 http fetch GET https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz
+781 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+782 info attempt registry request try #2 at 15:52:58
+783 http fetch GET https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz
+784 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+785 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+786 info attempt registry request try #2 at 15:52:58
+787 http fetch GET https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz
+788 info attempt registry request try #2 at 15:52:58
+789 http fetch GET https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz
+790 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+791 info attempt registry request try #2 at 15:52:58
+792 http fetch GET https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz
+793 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+794 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+795 info attempt registry request try #3 at 15:53:57
+796 http fetch GET https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz
+797 info attempt registry request try #3 at 15:53:57
+798 http fetch GET https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz
+799 info attempt registry request try #3 at 15:53:57
+800 http fetch GET https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz
+801 error fetch failed https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz
+802 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+803 error fetch failed https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz
+804 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+805 info attempt registry request try #3 at 15:53:58
+806 http fetch GET https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz
+807 error fetch failed https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz
+808 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+809 info attempt registry request try #3 at 15:53:58
+810 http fetch GET https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz
+811 info attempt registry request try #3 at 15:53:58
+812 http fetch GET https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz
+813 error fetch failed https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz
+814 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+815 info attempt registry request try #3 at 15:53:58
+816 http fetch GET https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz
+817 error fetch failed https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz
+818 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+819 error fetch failed https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz
+820 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+821 info attempt registry request try #3 at 15:53:58
+822 http fetch GET https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz
+823 info attempt registry request try #3 at 15:53:58
+824 http fetch GET https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz
+825 error fetch failed https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz
+826 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+827 info attempt registry request try #3 at 15:53:58
+828 http fetch GET https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz
+829 error fetch failed https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz
+830 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+831 error fetch failed https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz
+832 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+833 error fetch failed https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz
+834 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+835 info retry fetch attempt 2 at 15:54:07
+836 info attempt registry request try #1 at 15:54:07
+837 http fetch GET https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz
+838 info retry fetch attempt 2 at 15:54:08
+839 info attempt registry request try #1 at 15:54:08
+840 http fetch GET https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz
+841 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+842 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+843 info retry fetch attempt 2 at 15:54:08
+844 info attempt registry request try #1 at 15:54:08
+845 http fetch GET https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz
+846 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+847 info retry fetch attempt 2 at 15:54:08
+848 info attempt registry request try #1 at 15:54:08
+849 http fetch GET https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz
+850 info retry fetch attempt 2 at 15:54:08
+851 info attempt registry request try #1 at 15:54:08
+852 http fetch GET https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz
+853 info retry fetch attempt 2 at 15:54:08
+854 info attempt registry request try #1 at 15:54:08
+855 http fetch GET https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz
+856 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+857 info retry fetch attempt 2 at 15:54:08
+858 info attempt registry request try #1 at 15:54:08
+859 http fetch GET https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz
+860 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+861 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+862 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+863 info retry fetch attempt 2 at 15:54:08
+864 info attempt registry request try #1 at 15:54:08
+865 http fetch GET https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz
+866 info retry fetch attempt 2 at 15:54:08
+867 info attempt registry request try #1 at 15:54:08
+868 http fetch GET https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz
+869 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+870 info retry fetch attempt 2 at 15:54:09
+871 info attempt registry request try #1 at 15:54:09
+872 http fetch GET https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz
+873 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+874 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+875 info attempt registry request try #2 at 15:54:18
+876 http fetch GET https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz
+877 info attempt registry request try #2 at 15:54:18
+878 http fetch GET https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz
+879 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+880 info attempt registry request try #2 at 15:54:18
+881 http fetch GET https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz
+882 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+883 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+884 info attempt registry request try #2 at 15:54:18
+885 http fetch GET https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz
+886 info attempt registry request try #2 at 15:54:18
+887 http fetch GET https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz
+888 info attempt registry request try #2 at 15:54:18
+889 http fetch GET https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz
+890 info attempt registry request try #2 at 15:54:18
+891 http fetch GET https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz
+892 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+893 info attempt registry request try #2 at 15:54:19
+894 http fetch GET https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz
+895 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+896 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+897 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+898 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+899 info attempt registry request try #2 at 15:54:19
+900 http fetch GET https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz
+901 info attempt registry request try #2 at 15:54:19
+902 http fetch GET https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz
+903 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+904 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+905 info attempt registry request try #3 at 15:55:18
+906 http fetch GET https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz
+907 error fetch failed https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz
+908 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+909 info attempt registry request try #3 at 15:55:18
+910 http fetch GET https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz
+911 info attempt registry request try #3 at 15:55:18
+912 http fetch GET https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz
+913 error fetch failed https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz
+914 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+915 error fetch failed https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz
+916 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+917 info attempt registry request try #3 at 15:55:18
+918 http fetch GET https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz
+919 info attempt registry request try #3 at 15:55:19
+920 http fetch GET https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz
+921 info attempt registry request try #3 at 15:55:19
+922 http fetch GET https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz
+923 error fetch failed https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz
+924 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+925 info attempt registry request try #3 at 15:55:19
+926 http fetch GET https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz
+927 info attempt registry request try #3 at 15:55:19
+928 http fetch GET https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz
+929 error fetch failed https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz
+930 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+931 error fetch failed https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz
+932 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+933 error fetch failed https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz
+934 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+935 info attempt registry request try #3 at 15:55:19
+936 http fetch GET https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz
+937 error fetch failed https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz
+938 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+939 error fetch failed https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz
+940 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+941 info attempt registry request try #3 at 15:55:19
+942 http fetch GET https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz
+943 error fetch failed https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz
+944 warn retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+945 info retry fetch attempt 3 at 15:56:18
+946 info attempt registry request try #1 at 15:56:18
+947 http fetch GET https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz
+948 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+949 info retry fetch attempt 3 at 15:56:18
+950 info attempt registry request try #1 at 15:56:18
+951 http fetch GET https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz
+952 info retry fetch attempt 3 at 15:56:18
+953 info attempt registry request try #1 at 15:56:18
+954 http fetch GET https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz
+955 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+956 info retry fetch attempt 3 at 15:56:19
+957 info attempt registry request try #1 at 15:56:19
+958 http fetch GET https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz
+959 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+960 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+961 info retry fetch attempt 3 at 15:56:19
+962 info attempt registry request try #1 at 15:56:19
+963 http fetch GET https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz
+964 info retry fetch attempt 3 at 15:56:19
+965 info attempt registry request try #1 at 15:56:19
+966 http fetch GET https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz
+967 info retry fetch attempt 3 at 15:56:19
+968 info attempt registry request try #1 at 15:56:19
+969 http fetch GET https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz
+970 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+971 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+972 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+973 info retry fetch attempt 3 at 15:56:19
+974 info attempt registry request try #1 at 15:56:19
+975 http fetch GET https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz
+976 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+977 info retry fetch attempt 3 at 15:56:19
+978 info attempt registry request try #1 at 15:56:19
+979 http fetch GET https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz
+980 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+981 info retry fetch attempt 3 at 15:56:20
+982 info attempt registry request try #1 at 15:56:20
+983 http fetch GET https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz
+984 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+985 info attempt registry request try #2 at 15:56:28
+986 http fetch GET https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz
+987 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+988 info attempt registry request try #2 at 15:56:29
+989 http fetch GET https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz
+990 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+991 info attempt registry request try #2 at 15:56:29
+992 http fetch GET https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz
+993 info attempt registry request try #2 at 15:56:29
+994 http fetch GET https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz
+995 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+996 info attempt registry request try #2 at 15:56:29
+997 http fetch GET https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz
+998 info attempt registry request try #2 at 15:56:29
+999 http fetch GET https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz
+1000 info attempt registry request try #2 at 15:56:29
+1001 http fetch GET https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz
+1002 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+1003 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+1004 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+1005 info attempt registry request try #2 at 15:56:29
+1006 http fetch GET https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz
+1007 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+1008 info attempt registry request try #2 at 15:56:29
+1009 http fetch GET https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz
+1010 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+1011 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+1012 info attempt registry request try #2 at 15:56:30
+1013 http fetch GET https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz
+1014 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+1015 info attempt registry request try #3 at 15:57:28
+1016 http fetch GET https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz
+1017 error fetch failed https://registry.npmjs.org/@angular/common/-/common-2.0.1.tgz
+1018 info attempt registry request try #3 at 15:57:29
+1019 http fetch GET https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz
+1020 info attempt registry request try #3 at 15:57:29
+1021 http fetch GET https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz
+1022 error fetch failed https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-2.0.1.tgz
+1023 info attempt registry request try #3 at 15:57:29
+1024 http fetch GET https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz
+1025 info attempt registry request try #3 at 15:57:29
+1026 http fetch GET https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz
+1027 info attempt registry request try #3 at 15:57:29
+1028 http fetch GET https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz
+1029 error fetch failed https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.1.tgz
+1030 error fetch failed https://registry.npmjs.org/@angular/http/-/http-2.0.1.tgz
+1031 info attempt registry request try #3 at 15:57:29
+1032 http fetch GET https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz
+1033 error fetch failed https://registry.npmjs.org/@angular/router/-/router-3.0.1.tgz
+1034 error fetch failed https://registry.npmjs.org/@angular/compiler/-/compiler-2.0.1.tgz
+1035 error fetch failed https://registry.npmjs.org/@angular/core/-/core-2.0.1.tgz
+1036 info attempt registry request try #3 at 15:57:29
+1037 http fetch GET https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz
+1038 error fetch failed https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.1.tgz
+1039 info attempt registry request try #3 at 15:57:30
+1040 http fetch GET https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz
+1041 error fetch failed https://registry.npmjs.org/systemjs/-/systemjs-0.19.39.tgz
+1042 info attempt registry request try #3 at 15:57:31
+1043 http fetch GET https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz
+1044 error fetch failed https://registry.npmjs.org/@angular/forms/-/forms-2.0.1.tgz
+1045 silly rollbackFailedOptional Starting
+1046 silly rollbackFailedOptional Finishing
+1047 silly runTopLevelLifecycles Starting
+1048 silly runTopLevelLifecycles Finishing
+1049 silly install printInstalled
+1050 verbose stack Error: self signed certificate in certificate chain
+1050 verbose stack     at Error (native)
+1050 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:1057:38)
+1050 verbose stack     at emitNone (events.js:80:13)
+1050 verbose stack     at TLSSocket.emit (events.js:179:7)
+1050 verbose stack     at TLSSocket._init.ssl.onclienthello.ssl.oncertcb.TLSSocket._finishInit (_tls_wrap.js:596:8)
+1050 verbose stack     at TLSWrap.ssl.onclienthello.ssl.oncertcb.ssl.onnewsession.ssl.onhandshakedone (_tls_wrap.js:428:38)
+1051 verbose cwd C:\Users\f0223328\kh_ng2_playground
+1052 error Windows_NT 6.1.7601
+1053 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+1054 error node v5.5.0
+1055 error npm  v3.3.12
+1056 error code SELF_SIGNED_CERT_IN_CHAIN
+1057 error self signed certificate in certificate chain
+1058 error If you need help, you may report this error at:
+1058 error     <https://github.com/npm/npm/issues>
+1059 verbose exit [ 1, true ]
