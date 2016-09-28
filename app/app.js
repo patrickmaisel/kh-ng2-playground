@@ -9,20 +9,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var FeatureComponent = (function () {
-    function FeatureComponent() {
+var khNg2AgendaComponent = (function () {
+    function khNg2AgendaComponent() {
     }
-    FeatureComponent.prototype.ngOnInit = function () {
+    khNg2AgendaComponent.prototype.ngOnInit = function () {
     };
-    FeatureComponent = __decorate([
+    khNg2AgendaComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
             selector: 'kh-ng2-agenda',
             templateUrl: 'component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], FeatureComponent);
-    return FeatureComponent;
+    ], khNg2AgendaComponent);
+    return khNg2AgendaComponent;
 }());
-exports.FeatureComponent = FeatureComponent;
+exports.khNg2AgendaComponent = khNg2AgendaComponent;
 //# sourceMappingURL=app.js.map
