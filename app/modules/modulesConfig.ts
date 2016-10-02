@@ -1,5 +1,5 @@
 import {BrowserModule} from "@angular/platform-browser";
-import {khNg2AgendaComponent} from "../app";
+import {khNg2AgendaComponent} from "../components/app-component/app";
 
 export namespace ModuleConfiguration {
     export class App {
@@ -12,7 +12,6 @@ export namespace ModuleConfiguration {
             khNg2AgendaComponent            
         ];
 
-        
         public static bootstraps = [
             khNg2AgendaComponent
         ];
