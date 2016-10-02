@@ -22,7 +22,7 @@ module.exports = {
             ],
             systemScript: './system.js',
             app: {
-                everything: ['./app/**/*', './app/system.js'],
+                everything: ['./app/**/*', './styles/**/*', './app/system.js'],
                 ts: [
                     './app/**/*.ts'
                 ],
@@ -30,7 +30,7 @@ module.exports = {
                     './app/**/*.html'
                 ],
                 css: [
-                    './css/**/*.scss'
+                    './styles/**/*.scss'
                 ],
                 assets: [
                     './assets/**/*.*'
