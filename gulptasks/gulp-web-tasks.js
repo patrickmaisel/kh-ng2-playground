@@ -89,17 +89,18 @@
 
         gulp.task('copy-app-styles', function() {
             return gulp.src(config.source.files.app.css)
-                .pipe(cleanCss())
                 .pipe(sass().on('error', sass.logError))
+                .pipe(cleanCss())
                 .pipe(gulp.dest(path.join(config.targets.buildFolder, config.targets.stylesFolder)));
         });
 
-        gulp.task('vendor-css', function() {
+       gulp.task('vendor-css', function() {
             return gulp.src(config.source.files.vendorStylesheets)
                 .pipe(concat(config.targets.vendorMinCss))
                 .pipe(cleanCss())
                 .pipe(gulp.dest(path.join(config.targets.buildFolder, config.targets.stylesFolder)));
         });
+
 
         gulp.task('build-app-scripts', function() {
             return gulp.src(config.source.files.app.ts)

@@ -37,7 +37,7 @@ module.exports = {
                 ]
             },
             vendorStylesheets: [
-
+                //'./vendor/bootstrap/**/*.scss'
             ],
             shim: [
 
