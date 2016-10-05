@@ -1,5 +1,5 @@
 import {BrowserModule} from "@angular/platform-browser";
-import {khNg2AgendaComponent} from "../components/app-component/app";
+import {khNg2AgendaComponent} from "../components/app/app";
 
 export namespace ModuleConfiguration {
     export class App {
