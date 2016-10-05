@@ -6,6 +6,6 @@ Clone project via git or download sources as zip.
 
 Use `npm install` to install dependencies and typings.
 
-Run lite server with `gulp run`.
+Run lite server with `gulp run` on default port 8000 or `gulp run --port portnumber` with portnumber replaced with the actual number if your port 8000 already is in use.
 
 
