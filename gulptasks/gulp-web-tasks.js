@@ -19,7 +19,16 @@
             sass = require('gulp-sass'),
             sourcemaps = require('gulp-sourcemaps'),
             Builder = require('systemjs-builder'),
-            server = require('gulp-server-livereload');
+            server = require('gulp-server-livereload'),
+            minimist = require('minimist');
+
+            var knownOptions = {
+                string: 'port',
+                default: { port: 8000 }
+            };
+
+            var options = minimist(process.argv.slice(2), knownOptions)
+
 
         gulp.task('prepare-and-copy-main', function() {
             var injectableSources = gulp.src(config.source.files.injectables);
@@ -135,7 +144,8 @@
             return gulp.src(config.targets.buildFolder)
                 .pipe(server({
                     livereload: true,
-                    open: true
+                    open: true,
+                    port: options.port
                 }));
         });
 
