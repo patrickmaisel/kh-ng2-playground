@@ -22,12 +22,12 @@
             server = require('gulp-server-livereload'),
             minimist = require('minimist');
 
-            var knownOptions = {
-                string: 'port',
-                default: { port: 8000 }
-            };
+        var knownOptions = {
+            string: 'port',
+            default: { port: 8000 }
+        };
 
-            var options = minimist(process.argv.slice(2), knownOptions)
+        var options = minimist(process.argv.slice(2), knownOptions)
 
 
         gulp.task('prepare-and-copy-main', function() {
@@ -103,7 +103,7 @@
                 .pipe(gulp.dest(path.join(config.targets.buildFolder, config.targets.stylesFolder)));
         });
 
-       gulp.task('vendor-css', function() {
+        gulp.task('vendor-css', function() {
             return gulp.src(config.source.files.vendorStylesheets)
                 .pipe(concat(config.targets.vendorMinCss))
                 .pipe(cleanCss())

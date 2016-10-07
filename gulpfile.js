@@ -11,10 +11,6 @@
         gulpTasks[gulpTask].init(gulp, config);
     }
 
-    gulp.task('start', function(done) {
-        return runSequence('build-web', done);
-    });
-
     gulp.task('clean', function() {
         return del(config.targets.buildFolder + '/**/*', { force: true });
     });
